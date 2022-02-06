@@ -1,0 +1,69 @@
+.exampleone {
+  margin: 50;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  font-size: 30px;
+
+}
+
+.Filip {
+  background: hsla(0, 2%, 50%, 0.33);
+  float: right;
+  width: 590px;
+  position: right;
+  border-radius: 20px;
+  height: 433px;
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+  
+}
+
+.ready {
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: left;
+  text-indent: 1em;
+  font-size: 16px;
+  text-size-adjust: unset;
+  display: flex;
+}
+
+.felipe {
+  background: hsla(0, 2%, 50%, 0.33);
+  color: black;
+
+
+}
+
+.exampleo {
+  margin: 50;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  font-size: 40px;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .felipe {
+    width: 100%;
+    right: 500px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Filip {
+    width: 105%;
+    border-radius: 20px;
+    height: 433px;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+  }
+}

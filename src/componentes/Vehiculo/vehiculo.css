@@ -1,0 +1,50 @@
+/*@medias*/
+
+
+
+@media (max-width: 1280px) {
+  .formulario {
+    border-radius: 10px;
+    height: 600px;
+    display: flex;
+    padding: 0px;
+    margin: 30px;
+    margin: 32px;
+   
+  }
+  .table {
+    margin: none;
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 757px) {
+  .formulario {
+    width: 0px;
+  }
+  
+}
+
+@media (max-width: 520px) {
+  .formulario input {
+    width: 0px;
+  }
+ 
+}
+
+@media (max-width: 390px) {
+  .formulario {
+    border-radius: 0px;
+  }
+  .formulario input {
+    width: 0px;
+  }
+ 
+ 
+  .formulario input {
+    width: 3px;
+  }
+ 
+}

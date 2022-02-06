@@ -1,0 +1,78 @@
+/*Pie de Pagina*/
+.pie-pagina {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pie-pagina .col {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .col {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .col {
+  width: 250px;
+}
+.pie-pagina .col {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 10px;
+}
+.pie-pagina .col {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .col {
+  line-height: 45px;
+  margin-right: 10px;
+  transition: all 300ms ease;
+}
+.pie-pagina .col {
+  transform: translateY(-5px);
+}
+.pie-pagina .col {
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .col {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+
+.red-social {
+  float: right;
+}
+
+.seee {
+  color: rgb(247, 247, 247);
+}
+
+.medio {
+  display: block;
+  margin: auto;
+  right: 600px;
+  width: 100px;
+  float: right;
+  display:inline-table;
+}
